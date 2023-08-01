@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
 
   _addDateBar() {
     return Container(
-      margin: const EdgeInsets.only(top: 20, left: 11),
+      margin: const EdgeInsets.only(top: 20, left: 10),
       child: DatePicker(
         DateTime.now(),
         height: 100,
