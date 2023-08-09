@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                 width: 100,
                 height: 50,
                 color: Colors.green,
-                margin: const EdgeInsets.only(bottom: 10),
+                margin: const EdgeInsets.only(bottom: 11),
                 child: Text(
                     _taskController.taskList[index].title.toString()
                 ),
