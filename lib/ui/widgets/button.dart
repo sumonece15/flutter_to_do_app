@@ -14,7 +14,7 @@ class MyButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: 120,
+        width: 121,
         height: 60,
         alignment: Alignment.center,
         decoration: BoxDecoration(
